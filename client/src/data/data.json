@@ -1,0 +1,109 @@
+
+[
+     {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":600,
+    "title":"Creative1",
+    "id":1
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":500,
+    "title":"Creative2",
+    "id":2
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":300,
+    "title":"Creative3",
+    "id":3
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":400,
+    "title":"Creative4",
+    "id":4
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":700,
+    "title":"Creative5",
+    "id":5
+    }
+    ,{
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":900,
+    "title":"Creative6",
+    "id":6
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":600,
+    "title":"Creative7",
+    "id":7
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":100,
+    "title":"Creative8",
+    "id":8
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":600,
+    "title":"Creative9",
+    "id":9
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":500,
+    "title":"Creative10",
+    "id":10
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":800,
+    "title":"Creative11",
+    "id":11
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":500,
+    "title":"Creative12",
+    "id":12
+    },
+    {
+    "createdAt":"2021-04-16T10:04:17.207Z",
+    "description":"Macbook Pro",
+    "photos" : ["https://picsum.photos/id/1/200/300","https://picsum.photos/id/2/200/300"],
+    "price":200,
+    "title":"Creative13",
+    "id":13
+    }
+]
+   
+   
