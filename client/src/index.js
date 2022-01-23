@@ -6,6 +6,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { QueryClient,QueryClientProvider} from 'react-query'
 import { ReactQueryDevtools } from 'react-query/devtools'
+//contexts
+import { useAuth,AuthProvider } from './contexts/AuthContext';
+import { BasketProvider } from './contexts/BasketContext';
+
+
+
  // Create a client
  // Başka bir tabe gidip gelindiginde yada sayfa içinden başka bir sayfaya gidilip geri gelindiginde 
  // tekrar fetch yapılmasını istemiyorsak ; react-query/devtools import ettik ve defaultOptions özelligini
@@ -24,7 +30,11 @@ ReactDOM.render(
   <React.StrictMode>
     <QueryClientProvider client={queryClient}>
     <ChakraProvider>
+      <AuthProvider>
+      <BasketProvider>
     <App />
+    </BasketProvider>
+    </AuthProvider>
     </ChakraProvider>
     <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>

@@ -4,9 +4,11 @@ import { Formik, useFormik } from 'formik';
 import validationSchema from './validations';
 import { fetchRegister } from '../../../api';
 import axios from 'axios';
+import { useAuth } from '../../../contexts/AuthContext';
 
 
 function Signup() {
+    const {login} = useAuth(); // AuthContext içindeki veriyi bu componentta da kullandık.
 
    
     const {handleChange,handleSubmit,handleBlur,values,errors,touched} = useFormik({
@@ -18,6 +20,8 @@ function Signup() {
         onSubmit: async(values,bag) => {
           try{
             const registerResponse = await  fetchRegister({email:values.email,password:values.password});
+            console.log(registerResponse)
+            login(registerResponse);
           }catch(e){
              bag.setErrors({general:e.response.data.message})
           }
